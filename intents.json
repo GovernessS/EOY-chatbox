@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Salutations",
+        "Heyo",
+        "Hello hello"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hey there, what do you need?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Have fun", "I gotta jet, thanks for listening!"],
+      "responses": [
+        "Yes, thanks for listening to our presentation :)"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "I really do appreciate it"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "intro",
+      "patterns": [
+        "Do you know who I am?",
+        "Am I familiar?",
+        "Bell",
+        "Recognize",
+        "Identify",
+        "Do you recognize me?",
+        "What's my name?"
+      ],
+      "responses": [
+        "No clue. Tell me more about yourself.",
+        "No idea! Who are you?"
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "Should I share what I've done this semester?",
+        "Should I talk about what I've worked on this semester?",
+        "worked",
+        "project",
+        "working on"
+      ],
+      "responses": [
+        "Possibly. Tell me about your contributions thus far.",
+        "If you feel comfortable doing so :)"
+      ]
+    },
+    {
+      "tag": "growth",
+      "patterns": [
+        "I think I've become a better person.",
+        "I'm better than where I was yesterday.",
+        "I've learned a lot so far.",
+        "I've improved."
+      ],
+      "responses": [
+        "Really? How so?",
+        "Elaborate on what you've learned, if you may."
+      ]
+    },
+    {
+      "tag": "testimony",
+      "patterns": [
+        "I've made some memories here.",
+        "Are you interested to hear more?",
+        "Do you want me to explain?",
+        "I've been happy here."
+      ],
+      "responses": [
+        "Do tell your experiences at the Career Center!"
+      ]
+    },
+    {
+      "tag": "contributions",
+      "patterns": [
+        "I've been working with a new team this semester.",
+        "I've been adjusting to the Career Center.",
+        "I've been trying to help out as much as I can there."
+      ],
+      "responses": [
+        "How have you contributed toward the Career Center?",
+        "What value add have you offered to the team?"
+      ]
+    }
+  ]
+}
